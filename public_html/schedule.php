@@ -30,29 +30,8 @@
 
 <body>
 
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
- 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
- 
-	<ul class="navbar-nav mr-auto">
+    <?php include '../resources/navigation.php'; ?>
 
-		<li class="nav-item"><a class="nav-link" href="index.html">Homepage</a></li>   
-		<li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
-		<li class="nav-item"><a class="nav-link" href="roster.html">Roster</a></li>
-		<li class="nav-item"><a class="nav-link" href="stats.html">Stats</a></li>
-		<li class="nav-item"><a class="nav-link" href="all_time_players.html">All-Time Players</a></li>
-		<li class="nav-item"><a class="nav-link" href="information.html">BMSU Information</a></li>
-		
-
-	 </ul> 
-	 
-    </div>
-
-  </nav>
 
 <div class="container">
 
@@ -119,11 +98,8 @@
 	  </tbody>
 	</table>
 
-	<footer class="footer">
-	<br>	
-	  <p class="center">&copy; Copyright 2019, Blue Mountain State University</p>
+    <?php include '../resources/footer.php'; ?>
 
-	</footer>
 
 </div>
 
